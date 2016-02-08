@@ -28,7 +28,7 @@
 			if (isset ($_SESSION['username'])) {
 				if ($dir = opendir("/data/mod2_uploads/".$_SESSION['username'])) {
 		?>	
-				<!--  -->
+				<!--Uploading files using file browser-->
 				<form enctype = "multipart/form-data" action = "uploadScript.php" method = "POST">
 					<p id = "uplaod">
 						<input type = "hidden" name = "MAX_FILE_SIZE" value = "20000000" />
@@ -43,7 +43,7 @@
 					</p>
 				</form>
 				
-				<!--  -->
+				<!--Deleting files by marking check boxes and pressing delete button-->
 				<form enctype = "multipart/form-data" action = "deleteScript.php" method = "POST">
 					<p id = "fileBox"/>
 		<?php 
