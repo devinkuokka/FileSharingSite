@@ -1,0 +1,30 @@
+body {
+    background-color: #33CCCC;
+    
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#logout {
+    text-align: right;
+}
+
+#welcome {
+    font-size: 18px;   
+}
+
+#uplaod {
+    font-size: 14px;   
+}
+
+p {
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#fileBox {
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: #660066;
+} 

@@ -1,0 +1,14 @@
+Names, Student IDs:
+    Carolyn Dean Wolf, 417731
+    Devin Kuokka, 438169
+
+Link to Site:
+    http://ec2-54-200-210-175.us-west-2.compute.amazonaws.com/~cdeanwolf/login.php
+    
+Creative Portion:
+    For our creative portion, we included messages that are returned for both successful and unsuccessful logins as well as
+    logouts. We also included messages for successful file uploads and deletions, as well as when a user tries to uplaod a
+    file that already has been uploaded. Additionally, we included a feature that allows for multiple file deletion at once
+    and instead of including a button to open each file, we hyperlinked the file name to make opening the file more intuitive.
+    
+Additional Login Details:
