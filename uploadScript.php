@@ -21,7 +21,7 @@
                 }
             }
         }    
-            header("Location: userFiles.php");
+            header("Location: userFiles.php");      //returns to userFIles page
             exit;
     }
 ?>

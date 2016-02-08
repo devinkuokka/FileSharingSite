@@ -33,8 +33,6 @@
 
     $open_file = fopen($filename,'r') or die("Unable to open file!");
     
-        echo fread($open_file, filesize("$filename"));
-        fclose($open_file);
-    
- 
+    echo fread($open_file, filesize("$filename"));
+    fclose($open_file);
 ?>
