@@ -45,7 +45,7 @@
 				
 				<!--Deleting files by marking check boxes and pressing delete button-->
 				<form enctype = "multipart/form-data" action = "deleteScript.php" method = "POST">
-					<p id = "fileBox"/>
+					<p id = "fileBox">
 		<?php 
 						while (false !== ($fileName = readdir($dir))) {
 							if ($fileName != "." && $fileName != "..") {			
